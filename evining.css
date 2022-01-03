@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   width: 1024px;
+   height: 720px;
+   background-image:linear-gradient(rgb(243, 61, 61), rgb(204, 204, 196));
+
+}
+
+.box-1{
+   width: 200px;
+   height: 200px;
+   margin: 30px 40px;
+   background-image: linear-gradien(yellow, black);
+   border: 5px solid red;
+   border-radius: 50%;
+   background-color: red;
+}

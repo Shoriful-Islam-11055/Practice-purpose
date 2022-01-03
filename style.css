@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   width: 1024px;
+   height: 100%;
+   background-image: url("images/img3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0% 100%;
+}
+
+.main .box-1{
+   width: 55%;
+   height: 350px;
+   margin: 5% auto;
+   padding: 20px;
+   border: 20px solid red;
+   border-radius: 30px 0px;
+   background-image: url("images/img2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #fff;
+   background-origin: padding-box;
+   overflow: auto;
+   background-attachment:fixed;
+}
+
+.main .box-1 p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+}
+
+.main .profile img{
+   width: 20%;
+   height: 20%;
+   margin: 2%;
+   border-radius: 50%;
+}
+
+.main .profile p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   margin-left: 1%;
+}
+
+.button-1{
+   margin-left: 40%;
+   
+}
+
+.button-1 a{
+   text-decoration: none;
+   font-size: 30px;
+   background-color: aqua;
+   border-radius: 10px;
+}
